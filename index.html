@@ -17,16 +17,28 @@
 <body>
     <nav class = "light blue">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo center">Crypto For All</a>
+          <a class="brand-logo center">Crypto For All</a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
             <li><a href="#" id = "home-link">Home</a></li>
-            <li><a href="#" id = "cryptos-link">Cryptos</a></li>
+            <li><a  href="#" id = "cryptos-link">Cryptos</a></li>
             <li><a href="#" id = "create-comment-link">Comment</a></li>
           </ul>
         </div>
       </nav>
     
-      <div class ="container" id="main"></div>
+      <div class ="container" id="main">
+          <h1>Comment</h1>
+          <form>
+            <div class="input-field col s6">
+                <input id="name" type="text">
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="email_address" type="text" class="validate">
+                <label for="email_address">Email Address</label>
+              </div>
+          </form>
+      </div>
 
     <script src="javascripts/index.js"></script>
 </body>

@@ -1,6 +1,6 @@
 /** Three Question Rule for Events:
  
-    Overview: When we click on the cryptos link. we should be able to see all of the different cryptos listed on the page  
+    Overview: Create a comment box on the comment page.
 
     Question 1. When? DOMContentLoaded
 
@@ -123,7 +123,7 @@ const attachCommentLinkEvent = () => {
         fetch(baseURL + '/cryptos')
         .then(resp => resp.json())
         .then(data => {
-            console.log('data', data)
+            // console.log('data', data)
             cryptos = data;
         })
     }
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function(){
     //what do we want to do when the page loads?
     //load the home page
     getCryptos();
-    loadHome();
+    // loadHome();
     attachHomePageLinkeEvent();
     attachCryptosLinkEvent();
     attachCommentLinkEvent();

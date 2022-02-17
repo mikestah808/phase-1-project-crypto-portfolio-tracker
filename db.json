@@ -27,6 +27,34 @@
       "founder": "Anatoly Yakovenko",
       "created": 2017,
       "description": "n/a"
+    },
+    {
+      "id": 5,
+      "name": "Binance",
+      "founder": "Changpeng Zhao",
+      "created": 2017,
+      "description": "n/a"
+    },
+    {
+      "id": 6,
+      "name": "Avalanche",
+      "founder": "Emin Gün Sirer",
+      "created": 2020,
+      "description": "n/a"
+    },
+    {
+      "id": 7,
+      "name": "Dogecoin",
+      "founder": "Billy Markus",
+      "created": 2014,
+      "description": "n/a"
+    },
+    {
+      "id": 8,
+      "name": "Polygon",
+      "founder": "Jaynti Kanani, Sandeep Nailwal, Anurag Arjun",
+      "created": 2017,
+      "description": "n/a"
     }
   ]
 }
