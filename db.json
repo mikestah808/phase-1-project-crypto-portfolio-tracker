@@ -1,0 +1,32 @@
+{
+  "cryptos": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "founder": "Satoshi Nakamoto",
+      "created": 2009,
+      "description": "n/a"
+    },
+    {
+      "id": 2,
+      "name": "Ethereum",
+      "founder": "Vitalik Buterin",
+      "created": 2015,
+      "description": "n/a"
+    },
+    {
+      "id": 3,
+      "name": "Cardano",
+      "founder": "Charles Hoskinson",
+      "created": 2013,
+      "description": "n/a"
+    },
+    {
+      "id": 4,
+      "name": "Solana",
+      "founder": "Anatoly Yakovenko",
+      "created": 2017,
+      "description": "n/a"
+    }
+  ]
+}
